@@ -40,6 +40,47 @@ nav a {
 nav a:hover {
   color: black;
 }
+
+/* jumbotron */
+.jumbotron {
+  padding: 50px 0 10px 0;
+}
+
+.jumbotron a {
+  background-color: #c4e17f;
+  color: black;
+  border-color: black;
+  align-items: center;
+  border: 4px double rgba(100, 100, 100, 1);
+  border-radius: 58px;
+
+}
+
+/* .jumbotron .lead:hover{
+  color: #87ceeb;
+} */
+.jumbo{
+  display: flex;
+  background-color: #a58fc3;
+  padding: 50px 0 30px 0;
+  justify-content: space-around;
+}
+.form_imput{
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  border: 0;
+  outline: solid 2px white ;
+  background-color: #a58fc3;
+}
+.display-4 {
+  color: white;
+  text-align: center;
+}
+.lead {
+  color: white;
+  text-align: center;
+}
 /* Footer */
 .container {
   max-width: 1200px;
@@ -132,5 +173,11 @@ hr {
   }
   .footer-text {
     text-align: center;
+  }
+  .principal {
+    width: 100%;
+  }
+  .jumbo{
+    flex-direction: column;
   }
 }
