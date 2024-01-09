@@ -6,13 +6,22 @@
 }
 body {
   font-family: "Arial", sans-serif;
+  
+}
+
+section{
+  background-color: #a58fc3;
+}
+
+nav{
+  background-color: #ccd5ae;
 }
 
 /*----------------*/
 /*----Header----- */
 /*----------------*/
 header {
-  background-color: #a58fc3;
+  background-color: #ccd5ae;
   min-height: 70px;
   display: flex;
   justify-content: space-between;
@@ -51,12 +60,7 @@ nav a:hover {
 }
 
 .jumbotron a {
-  background-color: #c4e17f; 
-  /* color: black;
-  border-color: black;
-  align-items: center;
-  border: 4px double rgba(100, 100, 100, 1);
-  border-radius: 58px; */
+  background-color: #ccd5ae;
 }
 
 .jumbo {
@@ -66,7 +70,7 @@ nav a:hover {
   justify-content: space-around;
 }
 .form_imput {
-   margin-bottom: 2rem;
+  margin-bottom: 2rem;
   padding: 0.4rem 2rem;
   /*border: 0;
   outline: solid 2px white;
@@ -83,32 +87,130 @@ nav a:hover {
 
 .principal {
   margin-right: 10px;
+  border: 2px solid white;
 }
 
 /*----------------*/
 /* ---- Blog ---- */
 /*----------------*/
 .blog {
-  display: flex;
-  background-color: #c4e17f;
-  padding: 50px 0 30px 0;
-  justify-content: space-evenly;
+  background-color: #a58fc3;
+  padding: 100px 20px 100px 20px;
+}
+
+.textotitulo{
+  background-color: #a58fc3;
+  text-align: center;
+  
+}
+.heading{
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.blog h5 {
+  color: white;
+}
+.blog p {
+  color: white;
 }
 
 .card-title {
   text-align: center;
 }
 
+.card-img-top {
+  border: 2px solid white;
+}
+
+.card-body {
+  background-color: #a58fc3;
+  border: 2px solid white;
+}
+
+.blog a {
+  background-color: #ccd5ae;
+}
+
+/*----------------*/
+/*----Adicionales----- */
+/*----------------*/
+
+.card-text-clientes{
+  text-align: center;
+}
+
+.laempresa p{
+  text-align: center;
+}
+.laempresa{
+  padding: 0 150px 30px 150px;
+  color: white;
+  background-color: #a58fc3;
+}
+
+/*----------------*/
+/*----Comentarios----- */
+/*----------------*/
+
+main{
+  /* width: 100%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px; */
+  background:#a58fc3
+}
+
+.line{
+  height: 2px;
+  border-style: none;
+  background: white;
+  margin-top: 20px;
+}
+
+.container-comments{
+  margin: 20px 200px 0 200px;
+}
+
+  .container-comments p{
+    text-align: center;
+}
+
+.coments{
+  display: flex;
+}
+
+.photo-perfil{
+width: 10%;
+display: flex;
+object-fit: cover;
+height: 90px;
+object-fit: cover;
+object-position: bottom;
+}
+
+
+.info-comentario{
+margin-left: 20px;
+background: #a58fc3;
+}
+.info-comentario .foter{
+  display: flex;
+  justify-content: end;
+}
+
 /*----------------*/
 /*---- Footer---- */
 /*----------------*/
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .footer {
-  background-color: #87ceeb;
+  background-color: #ccd5ae;
   padding: 50px 0 10px 0;
 }
 
@@ -134,7 +236,7 @@ nav a:hover {
 }
 
 .link a:hover {
-  color: #c4e17f;
+  color: black;
 }
 
 .socials {
@@ -146,7 +248,7 @@ nav a:hover {
   display: inline-block;
   min-height: 40px;
   width: 40px;
-  background-color: #c4e17f;
+  background-color: #a58fc3;
   margin: 0 15px 10px 0;
   text-align: center;
   line-height: 40px;
@@ -205,4 +307,10 @@ hr {
     flex-direction: column;
     text-align: center;
   }
+ 
+  .comments{
+   display: b;
+  }
 }
+
+

@@ -28,12 +28,12 @@
         />
         <h2 class="nombre-empresa">olly's Cake's</h2>
       </div>
-      <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Quienes somos</a>
-        <a href="#">Catálogo</a>
-        <a href="#">Novedades</a>
-        <a href="#">Contacto</a>
+      <nav class="nav-header">
+        <a href="#jumbo">Inicio</a>
+        <a href="#productos">Catálogo</a>
+        <a href="#historia">Nuestra Historia</a>
+        <a href="#opinion">Opiniones</a>
+        <a href="#contacto">Contacto</a>
       </nav>
     </header>
 
@@ -42,7 +42,7 @@
     <!-------------->
     <nav class="jumbo">
       <div class="jumbotron">
-        <h1 class="display-4">Disfruta de un pequeño antojo</h1>
+        <h1 id="jumbo" class="display-4">Disfruta de un pequeño antojo</h1>
         <p class="lead">¡Bienvenido a nuestro rincón delicioso!</p>
         <p class="lead">
           Sumérgete en un festín de creatividad y tradición, donde cada pastel
@@ -77,86 +77,218 @@
     <!-------------->
     <!-- Blog -->
     <!-------------->
-    <nav class="blog">
-      <div class="card" style="width: 18rem">
-        <img
-          src="../Proyecto Landing/assets/img/seccion-tortas.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Sección de Tortas</h5>
-          <p class="card-text">
-            Exquisitas tortas horneadas con cuidado, desde vainilla clásica
-            hasta creaciones innovadoras. Textura esponjosa y sabores
-            inigualables para ocasiones especiales.
-          </p>
-          <a href="#" class="btn btn-outline-secondary">Explorar Tortas</a>
-        </div>
+    <nav>
+      <div>
+        <h1 id="productos" class="display-4 textotitulo">
+          Conoce nuestros productos
+        </h1>
       </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="../Proyecto Landing/assets/img/seccion-cupcakes.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Seccion de Cupcake´s</h5>
-          <p class="card-text">
-            Delicias individuales decoradas creativamente. Variedad de sabores,
-            desde clásicos hasta innovadores. Perfectos para eventos, regalos o
-            antojos dulces.
-          </p>
-          <a href="#" class="btn btn-outline-secondary">Explorar Cupcake´s</a>
+      <div class="blog row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img
+              src="../Proyecto Landing/assets/img/seccion-tortas.jpg"
+              class="card-img-top"
+              alt="imagen-tortas"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tortas</h5>
+              <p class="card-text lead">
+                Exquisitas tortas horneadas con cuidado, desde vainilla clásica
+                hasta creaciones innovadoras. Textura esponjosa y sabores
+                inigualables para ocasiones especiales.
+              </p>
+              <a href="https://n9.cl/akcw5" class="btn btn-outline-secondary"
+                >Explorar Tortas</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="../Proyecto Landing/assets/img/seccion-postres.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Sección de Postres</h5>
-          <p class="card-text">
-            Explosión de sabores y texturas en nuestros postres. Desde clásicos
-            internacionales hasta creaciones únicas. Mousses sedosos y
-            tartaletas crujientes inolvidables.
-          </p>
-          <a href="#" class="btn btn-outline-secondary">Explorar Postres</a>
+        <div class="col">
+          <div class="card">
+            <img
+              src="../Proyecto Landing/assets/img/seccion-cupcakes.jpg"
+              class="card-img-top"
+              alt="imagen-cupcakes"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cupcake´s</h5>
+              <p class="card-text lead">
+                Delicias individuales decoradas creativamente. Variedad de
+                sabores, desde clásicos hasta innovadores. Perfectos para
+                eventos, regalos o antojos dulces.
+              </p>
+              <a href="https://n9.cl/m9zry" class="btn btn-outline-secondary"
+                >Explorar Cupcake´s</a
+              >
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="../Proyecto Landing/assets/img/seccion-galletas.jpg"
-          class="card-img-top"
-          alt="..."
-        />
-        <div class="card-body">
-          <h5 class="card-title">Sección de Galletas</h5>
-          <p class="card-text">
-            Obras maestras de simplicidad y delicia. Clásicas con chispas de
-            chocolate o variantes con frutos secos. Suavidad y crujiente en cada
-            bocado.
-          </p>
-          <a href="#" class="btn btn-outline-secondary">Explorar Galletas</a>
+        <div class="col">
+          <div class="card">
+            <img
+              src="../Proyecto Landing/assets/img/seccion-postres.jpg"
+              class="card-img-top"
+              alt="imagen-postres"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Postres</h5>
+              <p class="card-text lead">
+                Explosión de sabores y texturas en nuestros postres. Desde
+                clásicos internacionales hasta creaciones únicas. Mousses
+                sedosos y tartaletas crujientes inolvidables.
+              </p>
+              <a href="https://n9.cl/b12pp" class="btn btn-outline-secondary"
+                >Explorar Postres</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="../Proyecto Landing/assets/img/seccion-galletas.jpg"
+              class="card-img-top"
+              alt="imagen-galletas"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Galletas</h5>
+              <p class="card-text lead">
+                Obras maestras de simplicidad y delicia. Clásicas con chispas de
+                chocolate o variantes con frutos secos. Suavidad y crujiente
+                inolvidables en cada bocado.
+              </p>
+              <a href="https://n9.cl/vf1rk" class="btn btn-outline-secondary"
+                >Explorar Galletas</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </nav>
 
     <!-------------->
+    <!-- Adicional -->
+    <!-------------->
+    <nav>
+      <div class="laempresa">
+        <h1 id="historia" class="display-4 textotitulo">
+          Esta es nuestra historia
+        </h1>
+        <p class="lead">
+          En el corazón de nuestra comunidad, una pastelería familiar ha crecido
+          con recetas transmitidas generacionalmente. Cada bocado refleja la
+          dedicación y amor de nuestra familia, conectando el pasado con el
+          presente. Desde sus modestos inicios, hemos tejido sabores que
+          conquistan paladares y nos reconocen regionalmente.
+        </p>
+        <p class="lead">
+          Con el tiempo, nuestra pastelería ha trascendido las fronteras
+          locales, destacando por la calidad y pasión en cada detalle. Nos
+          enorgullece ser un destino regional para los amantes de la pastelería
+          fina, gracias a ingredientes frescos y técnicas artesanales. El
+          reconocimiento regional es fruto del esfuerzo familiar, construyendo
+          una reputación que celebra la autenticidad de nuestras creaciones.
+        </p>
+        <p class="lead">
+          El reconocimiento regional es el resultado de años de esfuerzo y
+          dedicación de toda la familia. Cada día es una oportunidad para
+          compartir nuestra pasión por los postres, ofreciendo una experiencia
+          única con variedad de pasteles, galletas y panes. Desde nuestra
+          humilde pastelería, continuamos endulzando vidas, creando un legado
+          que trasciende generaciones y mirando al futuro con gratitud y
+          entusiasmo.
+        </p>
+      </div>
+    </nav>
+
+    <main>
+      <h1 id="opinion" class="display-4 textotitulo">
+        Que dicen nuestros clientes de nosotros
+      </h1>
+      <!-- <hr class="line"/> -->
+      <div class="container-comments">
+        <div class="coments">
+          <div class="photo-perfil">
+            <img
+              src="../Proyecto Landing/assets/img/persona1_circle.png"
+              alt="comentario uno"
+            />
+          </div>
+          <div class="info-comentario">
+            <div class="header">
+              <h4 class="lead">Jessica Reyes</h4>
+            </div>
+            <p class="lead">
+              "Molly's Cakes es una joya dulce. Sus tortas son divinas, los
+              postres irresistibles, los cupcakes adorables y las galletas
+              deliciosas. Mi lugar favorito para endulzar la vida con exquisitez
+              y variedad."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <hr class="line"/> -->
+      <div class="container-comments">
+        <div class="coments">
+          <div class="photo-perfil">
+            <img
+              src="../Proyecto Landing/assets/img/persona2_circle.png"
+              alt="comentario dos"
+            />
+          </div>
+          <div class="info-comentario">
+            <div class="header">
+              <h4 class="lead">Jade Nuñez</h4>
+            </div>
+            <p class="lead">
+              "En Molly's Cakes, la pastelería es un arte. Tortas y postres de
+              otro nivel, cupcakes y galletas encantadoras. Sabores únicos y un
+              servicio excepcional hacen de cada visita una experiencia dulce
+              inolvidable."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- <hr class="line"/> -->
+      <div class="container-comments">
+        <div class="coments">
+          <div class="photo-perfil">
+            <img
+              src="../Proyecto Landing/assets/img/persona3_circle.png"
+              alt="comentario tres"
+            />
+          </div>
+          <div class="info-comentario">
+            <div class="header">
+              <h4 class="lead">Lia Reyes</h4>
+            </div>
+            <p class="lead">
+              "Molly's Cakes es mi refugio dulce. Desde tortas esponjosas hasta
+              postres exquisitos, cada creación es una obra de arte comestible.
+              Cupcakes y galletas encantadores. Pasión en cada bocado."
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-------------->
     <!-- Footer -->
     <!-------------->
     <footer class="footer">
-      <div class="container">
+      <hr />
+      <div id="contacto" class="container">
         <div class="footer-link">
           <div class="link">
-            <h3>Pastelería</h3>
+            <h3>Molly´s Cake´s</h3>
             <ul>
-              <li><a href="#">Tortas</a></li>
-              <li><a href="#">Cupcake's</a></li>
-              <li><a href="#">Postres</a></li>
-              <li><a href="#">Galletas</a></li>
+              <li><a href="#jumbo">Inicio</a></li>
+              <li><a href="#productos">Catálogo</a></li>
+              <li><a href="#historia">Nuestra Historia</a></li>
+              <li><a href="#opinion">Opiniones</a></li>
+              <li><a href="#contacto">Contacto</a></li>
             </ul>
           </div>
 
@@ -178,7 +310,7 @@
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div class="footer-text">
           <p>Politica de privacidad</p>
           <p>©Todos los derechos reservados</p>
