@@ -14,7 +14,7 @@ section{
 }
 
 nav{
-  background-color: #ccd5ae;
+  background-color: #a58fc3;
 }
 
 /*----------------*/
@@ -50,6 +50,10 @@ nav a {
 
 nav a:hover {
   color: black;
+}
+
+.nav-header{
+  background-color: #ccd5ae;
 }
 
 /*----------------*/
@@ -153,53 +157,10 @@ nav a:hover {
 /*----------------*/
 /*----Comentarios----- */
 /*----------------*/
-
-main{
-  /* width: 100%;
-  max-width: 800px;
-  margin: auto;
-  margin-top: 50px; */
-  background:#a58fc3
-}
-
-.line{
-  height: 2px;
-  border-style: none;
-  background: white;
-  margin-top: 20px;
-}
-
-.container-comments{
-  margin: 20px 200px 0 200px;
-}
-
-  .container-comments p{
-    text-align: center;
-}
-
 .coments{
-  display: flex;
+  background-color: #a58fc3;
+  padding: 0 150px 30px 150px;
 }
-
-.photo-perfil{
-width: 10%;
-display: flex;
-object-fit: cover;
-height: 90px;
-object-fit: cover;
-object-position: bottom;
-}
-
-
-.info-comentario{
-margin-left: 20px;
-background: #a58fc3;
-}
-.info-comentario .foter{
-  display: flex;
-  justify-content: end;
-}
-
 /*----------------*/
 /*---- Footer---- */
 /*----------------*/
@@ -309,7 +270,17 @@ hr {
   }
  
   .comments{
-   display: b;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .laempresa{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 
