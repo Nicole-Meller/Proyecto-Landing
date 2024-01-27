@@ -159,8 +159,8 @@ nav a:hover {
 /*----------------*/
 .coments{
   background-color: #a58fc3;
- 
-}
+  padding: 50px;
+  }
 
 .person{
   height: 90px;
