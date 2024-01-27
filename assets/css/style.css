@@ -159,7 +159,11 @@ nav a:hover {
 /*----------------*/
 .coments{
   background-color: #a58fc3;
-  padding: 0 150px 30px 150px;
+ 
+}
+
+.person{
+  height: 90px;
 }
 /*----------------*/
 /*---- Footer---- */
@@ -274,6 +278,8 @@ hr {
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: auto;
+    padding: 0;
   }
 
   .laempresa{
@@ -281,6 +287,8 @@ hr {
     text-align: center;
     align-items: center;
     justify-content: center;
+    width: auto;
+    padding: 0;
   }
 }
 
