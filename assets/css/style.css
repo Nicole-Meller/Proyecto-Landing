@@ -1,19 +1,17 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   list-style: none;
 }
 body {
   font-family: "Arial", sans-serif;
-  
 }
 
-section{
+section {
   background-color: #a58fc3;
 }
 
-nav{
+nav {
   background-color: #a58fc3;
 }
 
@@ -26,7 +24,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
+  width: 100%;
 }
 .nombre-empresa {
   color: white;
@@ -52,17 +51,13 @@ nav a:hover {
   color: black;
 }
 
-.nav-header{
+.nav-header {
   background-color: #ccd5ae;
 }
 
 /*----------------*/
 /*---jumbotron--- */
 /*----------------*/
-.jumbotron {
-  padding: 50px 0 10px 0;
-}
-
 .jumbotron a {
   background-color: #ccd5ae;
 }
@@ -70,17 +65,9 @@ nav a:hover {
 .jumbo {
   display: flex;
   background-color: #a58fc3;
-  padding: 50px 0 30px 0;
+  padding-top: 50px;
   justify-content: space-around;
 }
-.form_imput {
-  margin-bottom: 2rem;
-  padding: 0.4rem 2rem;
-  /*border: 0;
-  outline: solid 2px white;
-  background-color: #a58fc3; */
-}
-/* ::placeholder { color: #c4e17f; } */
 
 .display-4 {
   color: white;
@@ -92,22 +79,24 @@ nav a:hover {
 .principal {
   margin-right: 10px;
   border: 2px solid white;
+  height: 480px;
+}
+
+.registro-form {
+  display: flex;
+  flex-direction: column;
 }
 
 /*----------------*/
 /* ---- Blog ---- */
 /*----------------*/
-.blog {
-  background-color: #a58fc3;
-  padding: 100px 20px 100px 20px;
-}
 
-.textotitulo{
+.textotitulo {
   background-color: #a58fc3;
   text-align: center;
-  
+  padding-bottom: 50px;
 }
-.heading{
+.heading {
   text-align: center;
   font-weight: 500;
   font-size: 3rem;
@@ -137,18 +126,22 @@ nav a:hover {
   background-color: #ccd5ae;
 }
 
+.row{
+  padding-bottom: 50px;
+}
+
 /*----------------*/
 /*----Adicionales----- */
 /*----------------*/
 
-.card-text-clientes{
+.card-text-clientes {
   text-align: center;
 }
 
-.laempresa p{
+.laempresa p {
   text-align: center;
 }
-.laempresa{
+.laempresa {
   padding: 0 150px 30px 150px;
   color: white;
   background-color: #a58fc3;
@@ -157,12 +150,12 @@ nav a:hover {
 /*----------------*/
 /*----Comentarios----- */
 /*----------------*/
-.coments{
+.coments {
   background-color: #a58fc3;
   padding: 50px;
-  }
+}
 
-.person{
+.person {
   height: 90px;
 }
 /*----------------*/
@@ -241,9 +234,11 @@ hr {
 /*---- Media ---- */
 /*----------------*/
 
-@media (max-width: 991px) {
+@media (max-width: 1660px) {
   header {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   nav {
@@ -266,14 +261,15 @@ hr {
     text-align: center;
   }
   .principal {
-    width: 100%;
+    width: 355px;
+    height: 190px;
   }
   .jumbo {
     flex-direction: column;
     text-align: center;
   }
- 
-  .comments{
+
+  .comments {
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -282,7 +278,7 @@ hr {
     padding: 0;
   }
 
-  .laempresa{
+  .laempresa {
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -290,6 +286,5 @@ hr {
     width: auto;
     padding: 0;
   }
+  
 }
-
-
